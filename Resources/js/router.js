@@ -40,6 +40,13 @@ fos.Router.prototype.setRoutes = function(routes) {
 };
 
 /**
+ * @return {goog.structs.Map} routes
+ */
+fos.Router.prototype.getRoutes = function() {
+    return this.routes_;
+}
+
+/**
  * @param {string} baseUrl
  */
 fos.Router.prototype.setBaseUrl = function(baseUrl) {
